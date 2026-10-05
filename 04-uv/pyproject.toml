@@ -1,0 +1,20 @@
+[project]
+name = "04-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "HARSHKRTHAKUR17", email = "theharshkrthakur17@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+04-uv = "04_uv:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
